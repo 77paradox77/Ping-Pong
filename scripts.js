@@ -5,7 +5,7 @@
 var dividingInput = function(pingPong) {
 var listItems = '';
 
-var results;
+var i;
 for (i=1; i <= pingPong; i++) {
   listItems += "<li>";
   if ((i % 3 === 0) && (i % 5 === 0)) {
@@ -19,7 +19,7 @@ for (i=1; i <= pingPong; i++) {
   }
 
 
-  return listItems
+  document.getElementById("results").innerHTML = listItems;
 }
 }
 
