@@ -10,54 +10,50 @@
   <!-- Bootstrap -->
 
   <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link  href="css/styles.css"  title="stylesheet" charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
 
   <script src="jquery-1.12.2.js" charset="utf-8"></script>
   <script src="scripts.js" type="text/javascript"></script>
 
 
-
-  <style>
-  h1 {
-    text-align: center;
-  }
-
-  p {
-    text-align: center;
-    padding: 0 150px 0 150px;
-  }
-
-  .form-group {
-    text-align: center;
-  }
-  </style>
-
 </head>
 <body>
-  <h1>Ping-Pong</h1>
-  <div class="rules">
-    <p><b>Alrighty. This is a traditional coding challenge invented to test a programmers ability to
-      with Loops and Arrays. Once the user enters a number the program will count up to the number starting from one.
-      Every third number will say "ping", every sixth number will say "Pong". If the number is divisible
-      fifteen then it will say "Ping-Pong".</b>
-    </p>
-  </div>
-
-  <form id="ping-pong">
-    <div class="form-group">
-      <label for="input">Enter a number here to Ping-Pong!</label>
-      <input id="input" type="text">
-
-      <button id="button" type="submit" class="btn btn-success">SUBMIT MEH!</button>
+  <div class="container">
+    <h1>Ping-Pong</h1>
+    <div class="rules">
+      <p><b>Alrighty. This is a traditional coding challenge invented to test a programmers ability to
+        with Loops and Arrays. Once the user enters a number the program will count up to the number starting from one.
+        Every third number will say "ping", every sixth number will say "Pong". If the number is divisible
+        fifteen then it will say "Ping-Pong".</b>
+      </p>
     </div>
-  </form>
 
+    <form id="ping-pong">
+      <div class="form-group">
+        <label for="input">Enter a number here to Ping-Pong!</label>
+        <input id="input" type="text">
 
-
-  <div>
-    <ul class="" id="results"></ul>
+        <button id="button" type="submit" class="btn btn-success">SUBMIT MEH!</button>
+      </div>
+    </form>
+    <p><img align="middle" class="img" src="treehouseFrog.png" alt="frog" /></p>
   </div>
 
+
+    <div class="sidebar">
+      <ul class="sidebar">
+        <li><u><strong>About Ping Pong</strong></u></li>
+        <li>Created by: <em>Reed</em></li>
+        <li>Github Username/URL:</li>
+        <li><em>77paradox77</em></li>
+        <li>Intro Test for:</li>
+        <li><em>Javascript</em></li>
+      </ul>
+    </div>
+
+    <div>
+      <ul class="list-group" id="results"></ul>
+    </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

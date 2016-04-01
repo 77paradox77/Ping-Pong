@@ -3,21 +3,23 @@
 
 // BUSINESS LOGIC
 var dividingInput = function(pingPong) {
-var listItems = '';
+var listItems = [];
 
 var i;
 for (i=1; i <= pingPong; i++) {
   listItems += "<li>";
   if ((i % 3 === 0) && (i % 5 === 0)) {
     listItems += "<b>Ping-Pong</b>";
-  } else if (i % 5 === 0) {
+  }
+  else if (i % 5 === 0) {
     listItems += "Pong"
-  } else if (i % 3 === 0) {
+  }
+  else if (i % 3 === 0) {
     listItems += "Ping";
-  } else {
+  }
+  else {
     listItems += i;
   }
-
 
   document.getElementById("results").innerHTML = listItems;
 }
