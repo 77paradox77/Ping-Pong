@@ -12,7 +12,8 @@ This project is my attempt to meet all the requirements of Epicodus's week 3 cha
 
 * _Clone this repository_
 * _open Index.html in Chromebrowser_
-* _OR type in the following link and view code through console: _
+* _OR type in the following link and view code through console:
+http://77paradox77.github.io/Ping-Pong/ _
 
 
 
