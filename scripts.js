@@ -5,20 +5,20 @@
 var dividingInput = function(pingPong) {
 var listItems = [];
 
-var i;
-for (i=1; i <= pingPong; i++) {
+var index;
+for (index=1; index <= pingPong; index++) {
   listItems += "<li>";
-  if ((i % 3 === 0) && (i % 5 === 0)) {
+  if ((index % 3 === 0) && (index % 5 === 0)) {
     listItems += "<b>Ping-Pong</b>";
   }
-  else if (i % 5 === 0) {
-    listItems += "Pong"
+  else if (index % 5 === 0) {
+    listItems += "Pong";
   }
-  else if (i % 3 === 0) {
+  else if (index % 3 === 0) {
     listItems += "Ping";
   }
   else {
-    listItems += i;
+    listItems += index;
   }
 
   document.getElementById("results").innerHTML = listItems;
@@ -35,3 +35,7 @@ $(document).ready(function() {
 
   });
 });
+
+
+// Reference a lot of different works from github and other sources and compiled several sources into
+// this project to make it work. In the future I will try my best to make things work from more of, and only, my raw code. scratch and be more thorough.
